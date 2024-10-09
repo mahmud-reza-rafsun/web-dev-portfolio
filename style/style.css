@@ -7,6 +7,9 @@
 }
 
 /* shared style */
+.secondary-bg{
+    background-color: #fff8f3;
+}
 .text-primary{
     color: #FD6E0A;
 }
@@ -15,13 +18,24 @@
 }
 .btn-primary{
     background-color: #FD6E0A;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
     color: white;
     padding: 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 700;   
+    text-align: center;
+    color: #181818;
+}
+.section-description{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 300;
 }
 
 /* header */
@@ -41,7 +55,7 @@ nav {
 }
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 40px;
 }
 nav ul{
     display: flex;
@@ -52,7 +66,7 @@ nav ul li{
     margin-right: 50px;
 }
 nav ul li a{
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -64,11 +78,12 @@ nav ul li a{
 }
 .banner-content{
     max-width: 580px;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .banner-subtitle{
     font-size: 35px;
     font-weight: 600;
+    margin-bottom: 16px;
 }
 .banner-title{
     font-size: 50px;
@@ -80,4 +95,29 @@ nav ul li a{
     font-size: 16px;
     color: #757575;
     font-weight: 300;
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 90px auto;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 100px 130px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.item-description{
+    font-weight: bold;
 }
