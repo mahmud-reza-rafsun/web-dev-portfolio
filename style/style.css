@@ -245,12 +245,33 @@ footer textarea{
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container, .about-items{
+    .skills-container, 
+    .about-items,
+    .banner{
         flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .banner-content{
+        margin-top: 0;
+    }
+    nav ul li {
+        margin-right: 23px;
     }
     .resume-container{
         flex-direction: column;
         text-align: center;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .header{
+        background-image: none;
     }
     footer{
         flex-direction: column;
