@@ -239,3 +239,30 @@ footer textarea{
     padding: 30px;
     margin-bottom: 20px;
 }
+
+/* simple responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container, .about-items{
+        flex-direction: column;
+    }
+    .resume-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer textarea{
+        width: 83%;
+    }
+    .about{
+        padding: 20px;
+    }
+}
